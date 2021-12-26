@@ -1,0 +1,23 @@
+Shop_Name,Location,Product,Product_ID,Price,Shelf_Life
+Big Bazaar ,Mumbai,Atta,6628527,25,52
+Big Bazaar ,Mumbai,Dal,6554521,60,79
+Big Bazaar ,Mumbai,Coca Cola,1287127,46,368
+Big Bazaar ,Mumbai,Besan,2730306,71,947
+Big Bazaar ,Mumbai,Cheese ,7518704,89,635
+Big Bazaar ,Mumbai,Chicken,6750724,40,452
+Big Bazaar ,Mumbai,Shampoo,4082273,95,236
+Big Bazaar ,Mumbai,Soap,7493571,3,827
+Big Bazaar ,Mumbai,Cooker,6160002,91,704
+Big Bazaar ,Mumbai,Deodrant,2590922,64,892
+Big Bazaar ,Mumbai,Detergent,5298054,53,993
+Big Bazaar ,Kolkata,Shampoo,4893115,51,261
+Big Bazaar ,Kolkata,Soap,1023714,6,896
+Big Bazaar ,Kolkata,Cheese ,4856371,69,943
+Big Bazaar ,Kolkata,Chicken,4052921,39,946
+Big Bazaar ,Kolkata,Atta,5404747,4,215
+Big Bazaar ,Kolkata,Dal,4258709,50,940
+Big Bazaar ,Delhi,Cleaner,6681808,55,896
+Big Bazaar ,Delhi,Cheese ,8616839,71,565
+Big Bazaar ,Delhi,Chicken,5038257,55,344
+Big Bazaar ,Delhi,Atta,4274036,3,277
+Big Bazaar ,Delhi,Dal,9515750,50,940
