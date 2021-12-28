@@ -1,0 +1,70 @@
+SQL Assignment – Part 3
+
+
+Q1. You are given four datasets pets.csv, owners.csv, proceduredetails.csv, 
+proedurehistory.csv. Upload all of them in your SQL server. Find the primary key 
+in each of the tables and write a query to: (Hint: Use joins)
+
+
+a) Extract information on pet names along with their owner names in the 
+same table.
+
+b) Extract information for those pets whose owners live in either “Grand 
+Rapids” or “Southfield”.
+
+c) Find the pet’s information which had a procedure performed
+
+d) Extract information on pet ids along with a description of the procedure 
+performed on them 
+
+e) Same as d but only keep those pet ids which are present in pets.csv
+
+f) Find the sum of the price incurred on each pet’s procedure.
+
+g) Same as f but only consider those pet’s whose names start with ‘C’
+
+h) Same as f but only consider those pet’s whose owner’s name starts with 
+‘T’
+
+i) Find the owner names who own more than 1 pet
+
+j) Find the count of procedures performed on each pet who are Dogs
+
+k) Find the average price incurred by each owner for their pet’s procedure
+
+Q2. What is the difference between a natural join and a cross join?
+
+Q3. What is the difference between a natural join and inner join?
+
+Q4. Determine the no. of records that we will get when you perform
+a. Inner join
+b. Left join
+c. Full Outer join
+d. Right join
+
+
+The joining key for the two tables is Column A.
+
+Table 1
+A B
+1 B1
+1 B2
+1 B3
+3 B4
+3 B5
+5 B6
+5 B7
+5 B8
+5 B9
+
+Table 2
+A C
+1 C1
+1 C2
+2 C3
+3 C4
+3 C5
+3 C6
+4 C7
+4 C8
+5 C9
