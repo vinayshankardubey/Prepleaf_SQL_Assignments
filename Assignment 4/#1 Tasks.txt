@@ -1,0 +1,118 @@
+Q1. You are an analyst helping a Vet Clinic by making some sense of the raw
+data available. The data is saved across four files. pets.csv, owners.csv, 
+proceduredetails.csv, procedurehistory.csv. Upload all of them in your SQL 
+Server and do the below analysis:
+
+a) Write a query to find the cumulative sum of total procedures performed 
+for each pet at a monthly level. (Use Self join and partition by both)
+
+b) Write a query to extract information for those pets who have undergone 
+procedure type “Vaccinations” with subcode 3, 4 and 5 or undergone 
+procedure type “General Surgeries” with subcode 8,10,13,15,16. (Try 
+both subquery and join)
+
+c) Write a query to find the top 5 pets in terms of fees paid for all the 
+procedures performed
+
+d) Write a query to find 4 owners who paid the least fees for procedures 
+performed on all their pets
+
+e) Write a query to find first and last date of procedure performed on each 
+of the pets. The output should have columns (Pet Name, First Procedure 
+Date, Last Procedure Date)
+
+f) Write a query to find all the owners whose pet’s name does not begin 
+from letters d to s.
+
+g) Write a query to find 3 day rolling average price incurred by each pet Id
+
+
+
+
+
+Q2. Write a SQL query to convert Table T1 into Table T. 
+T1 T2
+CUST_ID Metric Value CUST_ID Sales Units
+
+A Sales 10 A 10 2
+A Units 2 B 15 5
+B Sales 15 C 14 4
+B Units 5 D 12 7
+C Sales 14
+C Units 4
+D Sales 12
+D Units 7
+
+
+Q3. Consider the single-column table below.
+COL1 
+1
+1.2
+1.5
+2.2
+NA
+NAN
+NULL
+Answer the following questions:
+
+
+1. What is the possible data type of the column ‘COL1’?
+
+2. What will the output of the following SQL statements
+a. ‘SELECT COUNT (*) AS ENTRIES FROM TABLE;’
+b. ‘SELECT COUNT(COL1) AS ENTRIES FROM TABLE;’
+c. ‘SELECT COUNT (DISTINCT COL1) AS ENTRIES FROM TABLE;’
+
+Q4. Analyse 3 tables below (Customer sales, store and product data) and write a 
+nested query to find out the name of the most popular item in each of the 2 
+cities : - GS SQL Test Ques
+Cutomer_Name Item_Code Store_ID
+Ajay XG105 1235
+Ajay XG102 1235
+Ajay XG103 1235
+Shanu XG103 8866
+Nitin XG101 1235
+Abhishek XG101 8866
+Abhishek XG103 8866
+Luv XG103 2113
+Akhil XG104 2113
+Akhil XG105 2113
+Rohit XG103 8866
+Rohit XG101 8866
+Naveen XG102 2113
+Naveen XG103 2113
+Store_ID Store Location 
+1235 Delhi
+2113 Bangalore
+8866 Delhi
+Item Code Item Name
+XG101 Blue Berry Cake
+XG102 Blackforest Cake
+XG103 Apple Pie
+XG104 Truffle
+XG105 Lemon Pie
+
+
+Q5. You are given the following datasets: Customers.csv, Orders.csv, 
+Order_Details.csv & Product_Details.csv. Import all of them into your SQL 
+Server.
+Understand the variables and connectors between the tables. After that, Do the 
+following:
+a) Find the Country wise distinct count of customers 
+b) Spot the primary key in all the 4 tables 
+c) Create the following table:
+d) Create the following table: 
+e) Find the Best Performing product in terms of Total Quantity Consumed
+
+
+
+Q6. What is the error in the below queries?
+a. SELECT Id, name, YEAR(hire_date) AS Year
+FROM Table
+WHERE Year >= 2010;
+b. SELECT id, name
+FROM students
+WHERE grades =
+ (SELECT MAX(grades)
+ FROM students
+ GROUP BY subject_id;)
